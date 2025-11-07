@@ -18,11 +18,11 @@ last_name/first_name – Used to fill in the system’s user description field (
 
 groups – A comma-separated list of supplemental groups (ex: group01,group02). Use - if the user should not be added to any extra groups.
 
-Skipping Lines
+##Skipping Lines
 
 To skip a line (for notes or temporary removal), start the line with #.
 
-Command Execution
+##Command Execution
 
 The script must have executable permission set (e.g., $ chmod +x create-users.py) and is run from the command line using input redirection with elevated privileges. The necessary execution command is: sudo ./create-users.py < create-users.input
 
