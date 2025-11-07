@@ -24,7 +24,7 @@ To skip a line (for notes or temporary removal), start the line with #.
 
 ## Command Execution
 
-The script must have executable permission set (e.g., $ chmod +x create-users.py) and is run from the command line using input redirection with elevated privileges. The necessary execution command is: sudo ./create-users.py < create-users.input
+The script must have executable permission set ($ chmod +x create-users.py) and is run from the command line using input redirection with elevated privileges. The necessary execution command is: sudo ./create-users.py < create-users.input
 
 ## Dry Run
 A Dry Run is a crucial safety feature that allows the user to test the script's logic and ensure it generates the correct commands without making any permanent modifications to the system. To enable a dry run, the user must:
