@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # INET4031 Add Users Script and User List
 
 Program Description
@@ -61,7 +60,6 @@ Comment out the three lines containing os.system(cmd).
 
 Uncomment the three lines containing print(cmd).
 
-<<<<<<< HEAD
 When run in this mode, the script will execute all its internal logic but will only output the exact adduser and passwd commands 
 When run in this mode, the script will execute all its internal logic but will only output the exact adduser and passwd commands
 that would have been run, allowing the user to check for errors before committing the changes.
