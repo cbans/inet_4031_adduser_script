@@ -1,8 +1,8 @@
-# inet_4031_adduser_script
+# # INET4031 Add Users Script and User List
 
 ## Program Description
 
-create-users.py automates the creation of Linux user accounts and group memberships.
+Create-users.py automates the creation of Linux user accounts and group memberships.
 Instead of manually running commands like adduser and passwd for each new user,
 this script reads a list of accounts from an input file and generates the required system commands automatically.
 This helps reduce repetitive work, prevents typing errors, and scales easily for bulk user provisioning.
